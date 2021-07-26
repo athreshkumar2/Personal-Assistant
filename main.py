@@ -1,6 +1,9 @@
 """Athresh Assistant"""
+# This Is a virtual Speech to work based Python project
+""" It is developed by Athresh Kumar Labde
+For any queries contact me : Instagram-athresh_jr """
 
-
+from typing import Text
 import pyttsx3
 import speech_recognition as sr
 import datetime
@@ -13,6 +16,16 @@ voices = engine.getProperty('voices')                             #getting detai
 #print(voices[0].id)                                              #it will print the present Voices in this PC
 
 engine.setProperty('voice',voices[0].id)                          #for setting any voice from this PC ([0]for David,[1] for Zara)
+
+print("\nHey Welcome!")
+print("I am Athresh Your Personal Voice Assistant\n")
+print("You can exit by saying 'Bye'\n \n ")
+print("Just ask : 'Sushant According to Wikipedia'")
+print("         : 'What is The Time'")
+print("         : 'Open Chrome'")
+print("         : 'Open Youtube'\n")
+
+
 
 def speak(audio):
     engine.say(audio)
@@ -88,6 +101,8 @@ if __name__=="__main__" :
             os.startfile(downloadspath)
         elif 'bye' in query:
             speak("Have a Good day Athresh")
+            print("Created by Athresh Kumar Labde")
+            print("For Improvements/queries/suggestions \n Contact me via Instagram - athresh_jr\n\n")
             break
 
             
