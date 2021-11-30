@@ -6,7 +6,7 @@
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/82868326/144095636-71aed16b-d16d-45e8-998f-279d30dca503.png">
 
 ## About
-It is Personal Voice Assistant which can search wikipedia, open various websites, can search, fetch and read load any information.  
+It is Personal Voice Assistant made using various python modules and pyhton programming language which can search wikipedia, open various websites, can search, fetch and read load any information.  
 
 ## Python Modules Used
 ```python
